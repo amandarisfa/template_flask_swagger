@@ -1,7 +1,7 @@
 tags:
-  - name: clean_text
+  - name: cleansing_form
 get:
-  description: Cleansing Text using POST Method
+  description: Cleansing Text using POST Method From user input form
 parameters:
   - name: raw_text
     in: formData
