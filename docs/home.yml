@@ -1,0 +1,13 @@
+tags:
+  - name: get API information
+paths:
+  /:
+get:
+  description: get API information
+responses:
+  '200':
+    description: Successful Response
+  '400':
+    description: Bad Request
+  '500': 
+    description: Internal Server Error
